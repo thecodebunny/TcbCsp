@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp/etc/csp_whitelist.xsd">
+    <policies>
+        <policy id="script-src">
+            <values>
+             <value id="cloudflare" type="host">*.cloudflare.com</value>
+             <value id="google" type="host">*.google.com</value>
+             <value id="cloudccm19" type="host">cloud.ccm19.de</value>
+             <value id="ccm19" type="host">*.ccm19.de</value>
+             <value id="googletagmanager" type="host">*.googletagmanager.com</value>
+             <value id="googleapis" type="host">*.googleapis.com</value>
+             <value id="gstatic" type="host">*.gstatic.com</value>
+             <value id="google-analitycs" type="host">*.google-analitycs.com</value>
+             <value id="paypal" type="host">*.paypal.com</value>
+             <value id="stripe" type="host">*.stripe.com</value>
+             <value id="paypalobjects" type="host">*.paypalobjects.com</value>
+             <value id="vimeo" type="host">*.vimeo.com</value>
+             <value id="vimeocdn" type="host">*.vimeocdn.com</value>
+             <value id="youtube" type="host">*.youtube.com</value>
+             <value id="ytimg" type="host">*.ytimg.com</value>
+             <value id="braintreegateway" type="host">*.braintreegateway.com</value>
+             <value id="addthis" type="host">*.addthis.com</value>
+             <value id="cardinalcommerce" type="host">*.cardinalcommerce.com</value>
+             <value id="doubleclick" type="host">*.doubleclick.net</value>
+             <value id="googleads" type="host">*.googleads.com</value>
+             <value id="ccdc02" type="host">*.ccdc02.com</value>
+             <value id="adobetm" type="host">*.adobetm.com</value>
+                <value id="zoomyo" type="host">*.zoomyo.com</value>
+                <value id="zoomyochat" type="host">chat.zoomyo.com</value>
+            </values>
+        </policy>
+        <policy id="connect-src">
+            <values>
+             <value id="cloudflare" type="host">*.cloudflare.com</value>
+             <value id="google" type="host">*.google.com</value>
+             <value id="cloudccm19" type="host">cloud.ccm19.de</value>
+             <value id="ccm19" type="host">*.ccm19.de</value>
+             <value id="googletagmanager" type="host">*.googletagmanager.com</value>
+             <value id="googleapis" type="host">*.googleapis.com</value>
+             <value id="gstatic" type="host">*.gstatic.com</value>
+             <value id="google-analitycs" type="host">*.google-analitycs.com</value>
+             <value id="paypal" type="host">*.paypal.com</value>
+             <value id="stripe" type="host">*.stripe.com</value>
+             <value id="paypalobjects" type="host">*.paypalobjects.com</value>
+             <value id="vimeo" type="host">*.vimeo.com</value>
+             <value id="vimeocdn" type="host">*.vimeocdn.com</value>
+             <value id="youtube" type="host">*.youtube.com</value>
+             <value id="ytimg" type="host">*.ytimg.com</value>
+             <value id="braintreegateway" type="host">*.braintreegateway.com</value>
+             <value id="addthis" type="host">*.addthis.com</value>
+             <value id="cardinalcommerce" type="host">*.cardinalcommerce.com</value>
+             <value id="doubleclick" type="host">*.doubleclick.net</value>
+             <value id="googleads" type="host">*.googleads.com</value>
+             <value id="ccdc02" type="host">*.ccdc02.com</value>
+             <value id="adobetm" type="host">*.adobetm.com</value>
+                <value id="zoomyo" type="host">*.zoomyo.com</value>
+                <value id="zoomyochat" type="host">chat.zoomyo.com</value>
+            </values>
+        </policy>
+        <policy id="frame-src">
+            <values>
+             <value id="cloudflare" type="host">*.cloudflare.com</value>
+             <value id="google" type="host">*.google.com</value>
+             <value id="cloudccm19" type="host">cloud.ccm19.de</value>
+             <value id="ccm19" type="host">*.ccm19.de</value>
+             <value id="googletagmanager" type="host">*.googletagmanager.com</value>
+             <value id="googleapis" type="host">*.googleapis.com</value>
+             <value id="gstatic" type="host">*.gstatic.com</value>
+             <value id="google-analitycs" type="host">*.google-analitycs.com</value>
+             <value id="paypal" type="host">*.paypal.com</value>
+             <value id="stripe" type="host">*.stripe.com</value>
+             <value id="paypalobjects" type="host">*.paypalobjects.com</value>
+             <value id="vimeo" type="host">*.vimeo.com</value>
+             <value id="vimeocdn" type="host">*.vimeocdn.com</value>
+             <value id="youtube" type="host">*.youtube.com</value>
+             <value id="ytimg" type="host">*.ytimg.com</value>
+             <value id="braintreegateway" type="host">*.braintreegateway.com</value>
+             <value id="addthis" type="host">*.addthis.com</value>
+             <value id="cardinalcommerce" type="host">*.cardinalcommerce.com</value>
+             <value id="doubleclick" type="host">*.doubleclick.net</value>
+             <value id="googleads" type="host">*.googleads.com</value>
+             <value id="ccdc02" type="host">*.ccdc02.com</value>
+             <value id="adobetm" type="host">*.adobetm.com</value>
+                <value id="zoomyo" type="host">*.zoomyo.com</value>
+                <value id="zoomyochat" type="host">chat.zoomyo.com</value>
+             <value id="adobetm" type="host">*.summary-company.de</value>
+            </values>
+        </policy>
+        <policy id="media-src">
+            <values>
+                <value id="cloudflare" type="host">*.adobe.com</value>
+                <value id="ccm19" type="host">*.summary-company.de</value>
+                <value id="zoomyo" type="host">*.zoomyo.com</value>
+                <value id="zoomyochat" type="host">chat.zoomyo.com</value>
+            </values>
+        </policy>
+        <policy id="object-src">
+            <values>
+                <value id="cloudflare" type="host">*.adobe.com</value>
+                <value id="ccm19" type="host">*.summary-company.de</value>
+                <value id="zoomyo" type="host">*.zoomyo.com</value>
+                <value id="zoomyochat" type="host">chat.zoomyo.com</value>
+            </values>
+        </policy>
+        <policy id="style-src">
+            <values>
+                <value id="cloudflare" type="host">*.cloudflare.com</value>
+                <value id="cloudccm19" type="host">cloud.ccm19.de</value>
+                <value id="ccm19" type="host">*.ccm19.de</value>
+                <value id="zoomyo" type="host">*.zoomyo.com</value>
+                <value id="zoomyochat" type="host">chat.zoomyo.com</value>
+            </values>
+        </policy>
+        <policy id="img-src">
+            <values>
+                <value id="cloudflare" type="host">*.cloudflare.com</value>
+                <value id="zoomyo" type="host">*.zoomyo.com</value>
+                <value id="zoomyochat" type="host">chat.zoomyo.com</value>
+            </values>
+        </policy>
+        <policy id="font-src">
+            <values>
+                <value id="cloudflare" type="host">*.cloudflare.com</value>
+                <value id="zoomyo" type="host">*.zoomyo.com</value>
+                <value id="zoomyochat" type="host">chat.zoomyo.com</value>
+            </values>
+        </policy>
+    </policies>
+</csp_whitelist>
